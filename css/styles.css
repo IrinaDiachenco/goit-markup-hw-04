@@ -416,10 +416,6 @@ footer {
     justify-content: space-between;
 }
 
-.footer-text {
-    color: var(--header-bg-color);
-}
-
 .footer-text-item {
     font-family: Roboto, sans-serif;
     font-style: normal;
