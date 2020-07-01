@@ -115,6 +115,18 @@ h1 {
     color: var(--accent-text-color);
 }
 
+.icon-mail {
+    width: 16px;
+    height: 11.2px;
+    margin-right: 10px;
+    fill: var(--secondary-text-color);
+    cursor: pointer;
+}
+
+.icon-mail:hover, .icon-tel:hover {
+    fill: var(--accent-text-color);
+}
+
 .tel {
     font-family: Roboto, sans-serif;
     font-weight: 500;
@@ -127,7 +139,16 @@ h1 {
     color: var(--accent-text-color);
 }
 
+.icon-tel {
+    width: 16px;
+    height: 11.2px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
 .site-nav-main1 .item {
+    display: flex;
+    align-items: center;
     margin-left: 0px;
     margin-right: 0px;
 }
@@ -188,6 +209,30 @@ h1 {
     justify-content: space-between;
     padding-bottom: 0px;
     padding-left: 0px;
+}
+
+.icon-antenna {
+    width: 65.32px;
+    height: 70px;
+    fill: var(--title-text-color);
+}
+
+.icon-clock {
+    width: 66.96px;
+    height: 70px;
+    fill: var(--title-text-color);
+}
+
+.icon-diagram {
+    width: 70px;
+    height: 53.69px;
+    fill: var(--title-text-color);
+}
+
+.icon-astronaut {
+    width: 70px;
+    height: 70px;
+    fill: var(--title-text-color);
 }
 
 .function-logo {
@@ -277,8 +322,49 @@ h1 {
 }
 
 .social-link {
+    width: 206px;
+    height: 44px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link-bg {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: var(--accent-color);
+}
+
+.link-bg:hover {
+background-color: blue;
+}
+
+.icon-instagram {
+    width: 20px;
+    height: 20px;
+    fill: var(--client-color);
+}
+
+.icon-twitter {
+    width: 20px;
+    height: 16.25px;
+    fill: var(--client-color);
+}
+
+.icon-fb {
+    width: 10px;
+    height: 20px;
+    fill: var(--client-color);
+}
+
+.icon-linkedin {
+    width: 20px;
+    height: 20px;
+    fill: var(--client-color);
 }
 
 h1 {
@@ -361,6 +447,54 @@ h1 {
     border-radius: 4px;
     text-align: center;
     padding-top: 24px;
+    cursor: pointer;
+}
+
+.customers-item .item:hover {
+    border: 1px solid #2196F3;
+    box-sizing: border-box;
+    border-radius: 4px;
+    fill: var(--accent-color);
+}
+
+.customers-item .item:hover svg {
+    fill: inherit;
+}
+
+.icon-logo1 {
+    width: 44.27px;
+    height: 49.23px;
+    fill: var(--client-color);
+}
+
+.icon-logo2 {
+    width: 40px;
+    height: 52px;
+    fill: var(--client-color);
+}
+
+.icon-logo3 {
+    width: 41px;
+    height: 42.6px;
+    fill: var(--client-color);
+}
+
+.icon-logo4 {
+    width: 79.66px;
+    height: 42.02px;
+    fill: var(--client-color);
+}
+
+.icon-logo5 {
+    width: 59px;
+    height: 47px;
+    fill: var(--client-color);
+}
+
+.icon-logo6 {
+    width: 88.48px;
+    height: 45.44px;
+    fill: var(--client-color);
 }
 
 .portfolio-section {
@@ -413,7 +547,7 @@ footer {
 
 .footer-items {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .footer-text-item {
@@ -423,6 +557,20 @@ footer {
     font-size: 14px;
     line-height: 1.14;
     color: var(--header-bg-color);
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 206px;
+    padding-left: 0px;
+}
+
+.icon-send {
+    width: 24px;
+    height: 24px;
+    fill: var(--header-bg-color);
+    margin-left: 10px;
 }
 
 footer .email {
@@ -445,6 +593,15 @@ footer .logo {
     font-weight: bold;
     font-size: 16px;
     line-height: 1.88;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .portfolio-section .buttons {
