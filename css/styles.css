@@ -644,6 +644,7 @@ footer .logo {
     margin-right: 0px;
     margin-bottom: 0px;
     padding-top: 94px;
+    cursor: pointer;
 }
 
 .button {
@@ -663,6 +664,7 @@ footer .logo {
 .button:hover {
     color: var(--header-bg-color);
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 
 ul {
