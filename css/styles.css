@@ -343,32 +343,24 @@ h1 {
     align-items: center;
 }
 
-.link-bg:hover {
-    background-color: var(--accent-color);
+.link-bg:hover{
+    background-color: var(--accent-color); 
 }
 
-.icon-instagram {
-    width: 20px;
-    height: 20px;
-    fill: var(--client-color);
-}
-
-.icon-twitter {
-    width: 20px;
-    height: 16.25px;
-    fill: var(--client-color);
-}
-
-.icon-fb {
-    width: 10px;
-    height: 20px;
-    fill: var(--client-color);
-}
-
+.icon-instagram,
+.icon-twitter,
+.icon-fb,
 .icon-linkedin {
     width: 20px;
     height: 20px;
     fill: var(--client-color);
+}
+
+.icon-instagram:hover, 
+.icon-twitter:hover, 
+.icon-fb:hover, 
+.icon-linkedin:hover {
+    fill: var(--header-bg-color);
 }
 
 h1 {
@@ -568,6 +560,41 @@ footer {
     justify-content: space-between;
     width: 206px;
     padding-left: 0px;
+}
+
+.footer-links .link-bg {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-links .link-bg:hover {
+    background-color: var(--accent-color);
+}
+
+.footer-links .link-bg .icon-instagram {
+    width: 20px;
+    height: 20px;
+    fill: var(--header-bg-color);
+}
+
+.footer-links .link-bg .icon-twitter {
+    width: 20px;
+    height: 20px;
+    fill: var(--header-bg-color);
+}
+
+.footer-links .link-bg .icon-fb {
+    width: 20px;
+    height: 20px;
+    fill: var(--header-bg-color);
+}
+
+.footer-links .link-bg .icon-linkedin {
+    width: 20px;
+    height: 20px;
+    fill: var(--header-bg-color);
 }
 
 .icon-send {
