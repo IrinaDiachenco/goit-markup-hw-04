@@ -97,9 +97,15 @@ h1 {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    color: var(--title-text-color);
 }
 
-.link:hover {
+.link.current {
+    color: var(--accent-text-color);
+}
+
+.link:hover,
+.link:focus {
     color: var(--accent-text-color);
 }
 
@@ -123,16 +129,21 @@ h1 {
     cursor: pointer;
 }
 
-.icon-mail:hover, .icon-tel:hover {
-    fill: var(--accent-text-color);
-}
-
 .tel {
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     color: var(--secondary-text-color);
+}
+
+.site-nav-main1 .item:hover {
+    color: var(--accent-text-color);
+    fill: var(--accent-text-color);
+}
+
+.site-nav-main1 .item:hover svg {
+    fill: inherit;
 }
 
 .tel:hover {
@@ -181,6 +192,8 @@ h1 {
     width: 200px;
     height: 50px;
     cursor: pointer;
+    border-radius: 4px;
+    border: 0px;
 }
 
 .hero {
@@ -344,8 +357,12 @@ h1 {
     align-items: center;
 }
 
-.link-bg:hover{
+.link-bg:hover {
     background-color: var(--accent-color); 
+}
+
+.link-bg:hover svg{
+    fill: var(--header-bg-color); 
 }
 
 .icon-instagram,
@@ -355,13 +372,6 @@ h1 {
     width: 20px;
     height: 20px;
     fill: var(--client-color);
-}
-
-.icon-instagram:hover, 
-.icon-twitter:hover, 
-.icon-fb:hover, 
-.icon-linkedin:hover {
-    fill: var(--header-bg-color);
 }
 
 h1 {
@@ -545,6 +555,8 @@ footer {
 .footer-items {
     display: flex;
     justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-text-item {
@@ -605,12 +617,26 @@ footer {
     margin-left: 10px;
 }
 
-footer .email {
+.footer-items .email, .footer-items .tel {
     color: rgba(255, 255, 255, 0.6);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
 }
 
-footer .tel {
-    color: rgba(255, 255, 255, 0.6);
+.footer-text {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--header-bg-color);
+}
+
+.contacts {
+    padding-left: 0px;
 }
 
 footer .logo {
@@ -634,6 +660,7 @@ footer .logo {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 0px;
 }
 
 .portfolio-section .buttons {
