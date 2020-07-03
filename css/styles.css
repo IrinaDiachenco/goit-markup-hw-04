@@ -672,6 +672,17 @@ footer .logo {
     margin-bottom: 0px;
     padding-top: 94px;
     cursor: pointer;
+    
+}
+
+.buttons .button {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    border: 0px;
+    border-radius: 4px;
 }
 
 .button {
